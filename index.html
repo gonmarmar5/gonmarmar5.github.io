@@ -1,0 +1,360 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Gonzalo Martínez Martínez | Software Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="gonmarmar5, name, skill" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Gonzalo Martínez Martínez | Software Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://github.com/gonmarmar5.io" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Gonzalo Martínez Martínez | Software Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Explore my creative portfolio showcasing innovative projects and designs." />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Gonzalo Martínez Martínez</span>
+          <br />
+          I'm a Software Engineer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profile.png"
+              alt="Profile"
+              width=auto
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Hello there! As a driven and dedicated Software Engineering
+              student, my passion lies in developing efficient
+              software solutions using a variety of programming
+              languages and frameworks. 1 have a particular
+              interest in exploring the applications of Al and
+              machine learning to solve complex, real-world
+              problems. 1 am a highly motivated and diligent
+              individual who consistently strives for
+              self-improvement and professional development
+            </p>
+            <p class="about-wrapper__info-text">
+              Feel free to explore the projects showcased here.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="assets/cv_gonzalo_martinez_martinez_en.pdf" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">BayesPPO-SMAC3</h3>
+              <p class="project-wrapper__text-info">
+                This is my Master's Thesis which consists in a research into the effectiveness of Bayesian optimisation with multi-fidelity for with multi-fidelity for hyperparameter adjustment in reinforcement learning algorithms using RL environments such as OpenAI Lunarlander and CartPole.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/gonmarmar5/BayesPPO-SMAC3" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a>
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/gonmarmar5/BayesPPO-SMAC3" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/lunar_lander.gif"
+                    class="img-fluid"
+                    alt="Project "
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">FlightCommander</h3>
+              <p class="project-wrapper__text-info">
+                This project develops a drone flight planner focusing on autonomous reasoning. Using A* and D* algorithms, it ensures efficient pathfinding and logical decision-making to navigate obstacles and calculate routes. The drone adapts to environmental complexities and unexpected obstacles, prioritizing safety and maintaining sufficient battery for the journey.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/gonmarmar5/FlightCommander"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/gonmarmar5/FlightCommander" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/FlightCommander.jpg"
+                    class="img-fluid"
+                    alt="Project"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          <!-- Each .row is a project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">AIDrone</h3>
+              <p class="project-wrapper__text-info">
+                AIDrone is a final degree project that study the artificial intelligence use for drones. The goal of this project is monitoring wildfires in forest with one or various drones in the smart way possible.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://www.youtube.com/watch?v=V7FrH9Jb7S0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/alvvazort/AIDrone/wiki" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://www.youtube.com/watch?v=V7FrH9Jb7S0" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/AIDrone.png"
+                    class="img-fluid"
+                    alt="Project"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Bugalink</h3>
+              <p class="project-wrapper__text-info">
+                Bugalink is a webapp that allows you to find other people who share the same routes as you, so you can travel. The app is no longer available, but you can see the source code and landing page.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://www.bugalink.es"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/ISPP-Grupo5/BugaLink" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://www.bugalink.es" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/bugalink.gif"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          <!-- Each .row is a project -->
+
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">GridExplorers</h3>
+              <p class="project-wrapper__text-info">
+                This project is a dynamic simulator that models agent movement on a grid. Agents aim to reach a central square, adapting to changes using A* algorithms and density-based adjustments. The program allows for random agent relocation and target square repositioning. Visualization features explore agent interactions with changing goals and study emergent dynamics.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/gonmarmar5/ShapeBugs" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/gonmarmar5/ShapeBugs" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/shapebugs.png"
+                    class="img-fluid"
+                    alt="Project"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">  </p>
+          <a href="mailto:alvvazort@gmail.com" class="cta-btn cta-btn--resume">Send mail</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/alvarovazquezortiz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/alvvazort"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> -  by
+          <a
+            href="https://github.com/alvvazort"
+            target="_blank"
+            rel="noopener noreferrer"
+            >alvvazort</a
+          >. <br />Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
